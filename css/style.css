@@ -1,0 +1,127 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/* Header start */
+header{
+	background-color: white;
+	/*padding: 10px 0;*/
+}
+.wrapper{
+	*border: 2px solid red;
+	overflow: hidden;
+}
+.logo{
+	width: 7%;
+    float: left;
+    margin: 10px 0 10px 10px;
+	/*border: 2px solid red;*/
+}
+.logo img{
+	width: 100%;
+}
+.headings{
+	/*border: 2px solid red;*/
+    float: left;
+    margin-top: 38px;
+}
+.headings h1{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size:36px;
+	float: left;
+	text-transform: capitalize;
+	/*border: 2px solid red*/
+	margin: 0;
+	/*display: inline-block;*/
+	color: #687682;
+}
+.menu{
+	/*border: 2px solid red;*/
+	float: right;
+	width: 65%;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+	/*padding: 25px;*/
+
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color:#687682;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5px 26px;
+	display: inline-block;
+	transition: .3s;
+	margin-right: 25px;
+	transition: .3s;
+	/*margin-top: 5px;*/
+}
+.menu ul li a:hover{
+	color: #31A9EA;
+}
+.banner{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.b_content{
+	width: 33%;
+	/*border: 2px solid red;*/
+	background-color: rgba(54,46,44,0.5);
+	margin: 75px 0 200px;
+	padding-bottom: 50px;
+	padding-right: 	20px;
+	padding-top: 30px;
+
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 35px;
+	color: white;
+	text-transform: uppercase;
+	margin: 50px 50px 0 50px;
+	line-height: 50px;
+	opacity: 0.6;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size:18px;
+	color: white;
+	margin: 0 40px 0 50px;
+	letter-spacing: 3px;
+	opacity: 0.6;
+}
+.b_content button{
+	margin: 30px 0 0 50px;
+	width: 200px;
+	height: 40px;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+	background-color:rgba(54,46,44);
+	opacity: .6;
+	border:0;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .3s;
+}
+.b_content button:hover{
+	color: #31A9EA;
+}
+.b_content button:focus{
+	outline: 0;
+}
