@@ -8,7 +8,7 @@ header{
 	/*padding: 10px 0;*/
 }
 .wrapper{
-	*border: 2px solid red;
+	/*border: 2px solid red;*/
 	overflow: hidden;
 }
 .logo{
@@ -124,4 +124,131 @@ header{
 }
 .b_content button:focus{
 	outline: 0;
+}
+.service{
+	/*border: 1px solid red;*/
+
+}
+.wrapper_service{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.single{
+    width: 31%;
+    /*border: 1px solid black;*/
+    margin: 50px 15px 60px 20px;
+    float: left;
+}
+.single:last-child{
+	margin-left: 5px;
+}
+.top{
+	width: 92%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+
+}
+.t_text{
+	width: 50%;
+    /*border: 1px solid yellow;*/
+    margin-left: 34%;
+}
+.t_text h4{
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #65635f;
+    margin: 0;
+}
+.villa{
+	width: 94%;
+    margin: 0 auto;
+    /* border: 1px solid red;*/
+}
+.villa img{
+	width: 100%;
+}
+.bottom{
+	/*border: 1px solid magenta;*/
+	width: 90%;
+	margin: 0 auto;
+}
+.b_text{
+	width: 90%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+
+}
+.b_text p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #65635f;
+    text-align: center
+}
+.bottom button{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    background-color: #334B6D;
+    text-align: center;
+    width: 70px;
+    padding: 4px;
+    margin: 30px 50px 11px 172px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 142px;
+}
+.bottom button:hover{
+	color: #0275B7;
+}
+.bottom button:focus{
+	outline: 0;
+}
+.footer{
+	/*border: 1px solid blue;*/
+
+}
+.footer_wrapper{
+	width: 50%;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+.f_text{
+	width: 50%
+	/*border:1px solid red;*/
+	padding: 16px 55px 0 73px;
+}
+.f_text h5{
+	font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #77665d;
+    margin: 0;
+    line-height: 2;
+    margin-left: 76px;
+}
+.f_text p{
+	font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #77665d;
+    text-align: center;
+    margin: 0
+}
+.social{
+	margin-left: 230px;
+}
+.social ul{
+	list-style: none;
+	overflow: hidden;
+}
+.social ul li{
+float: left;
+
 }
