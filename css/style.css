@@ -225,17 +225,17 @@ header{
 	padding: 16px 55px 0 73px;
 }
 .f_text h5{
-	font-family: sans-serif;
-    font-size: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
     font-weight: 400;
     color: #77665d;
     margin: 0;
     line-height: 2;
-    margin-left: 76px;
+    margin-left: 153px;
 }
 .f_text p{
 	font-family: sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     color: #77665d;
     text-align: center;
